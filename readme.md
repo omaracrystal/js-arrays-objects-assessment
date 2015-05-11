@@ -1,5 +1,26 @@
 ## Arrays of Objects
 
+1. Write a function that logs everything in an array.
+
+```
+var list = ['milk', 'butter', 'cheese'];
+
+logList([ist);
+// =>  milk
+// =>  butter
+// =>  cheese
+```
+
+1. Write a function that logs the first and last item in an array.
+```
+var list = ['milk', 'butter', 'cheese'];
+
+logFirstAndLast(list);
+// =>  milk
+// =>  cheese
+```
+
+
 1. Write a function that returns each string in this array in all uppercase letters.
 
 Example:
