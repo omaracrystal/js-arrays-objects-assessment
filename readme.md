@@ -52,7 +52,7 @@ Example:
 var list = [
   {width: 20, color: 'red'},
   {width: 50, color: 'blue'},
-  {width: 10: color: 'purple'}
+  {width: 10, color: 'purple'}
 ];
 
 getColors(list);
