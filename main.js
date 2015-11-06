@@ -82,13 +82,13 @@
   }
 
 
+  function getMostWeapons2(orcs) {
+    return orcs.sort(function(a,b){
+      a.weapons.length - b.weapons.length;
+    }).filter(function(value,index,array){
+      return value.weapons.length == array[0].weapons.length;
+    });
+  }
+
 })();
 
-
-function getMostWeapons2(orcs) {
-  return orcs.sort(function(a,b){
-    a.weapons.length - b.weapons.length;
-  }).filter(function(value,index,array){
-    return value.weapons.length == array[0].weapons.length;
-  });
-}
