@@ -74,7 +74,7 @@
         if (orc.weapons.length > longest) {
             longestOrcs = [orc];
             longest = orc.weapons.length;
-        } else if (orc.weapons.length == longest) {
+        } else if (orc.weapons.length === longest) {
             longestOrcs.push(orc);
         }
     });
@@ -85,3 +85,10 @@
 })();
 
 
+function getMostWeapons2(orcs) {
+  return orcs.sort(function(a,b){
+    a.weapons.length - b.weapons.length;
+  }).filter(function(value,index,array){
+    return value.weapons.length == array[0].weapons.length;
+  });
+}
