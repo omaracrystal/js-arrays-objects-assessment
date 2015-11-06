@@ -142,10 +142,15 @@ var orcs = [
 		name: 'Mark',
 		strength: 543,
 		weapons: ['Ax of Defense', 'Dagger', 'Sword']
+	},
+	{
+		name: 'Mace',
+		strength: 888,
+		weapons: ['Ax of Defense', 'Dagger', 'Sword']
 	}
 ]
 getMostWeapons(orcs);
-// => 	{name: 'Mark', strength: 543, weapons: ['Ax of Defense', 'Dagger', 'Sword' ]}
+// => 	[{name: 'Mark', strength: 543, weapons: ['Ax of Defense', 'Dagger', 'Sword' ]}, {name: "Mace", strength: 888, weapons: ["Ax of Defense", "Dagger", "Sword"]}]
 
 ```
 
